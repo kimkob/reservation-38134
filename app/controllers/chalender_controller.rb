@@ -1,0 +1,2 @@
+class ChalenderController < ApplicationController
+end
