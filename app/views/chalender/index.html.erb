@@ -6,6 +6,8 @@
 <% else %>
   <h2>ログインしていません</h2>
   <%= link_to "新規登録", new_user_registration_path %>
-  <%= link_to "ログイン", new_user_session_path %>
   <%= link_to "メールアドレスで登録", new_user_registration_path%>
+  <%= link_to "ログイン", new_user_session_path %><br>
+  <%= link_to image_tag("btn_google.png"), user_google_oauth2_omniauth_authorize_path, method: :post%><br />
+
 <% end %>
