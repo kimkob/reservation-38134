@@ -4,6 +4,6 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
  
-  root to: 'chalender#index'
+  root to: 'calendar#index'
   resources :users, only: :new
 end

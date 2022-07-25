@@ -59,3 +59,4 @@ gem 'pry-rails'
 gem 'omniauth-google-oauth2'
 gem "omniauth-rails_csrf_protection"
 gem 'omniauth', '~>1.9.1'
+gem "simple_calendar", "~> 2.4"
