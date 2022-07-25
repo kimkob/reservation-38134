@@ -1,24 +1,44 @@
-# README
+# アプリケーション名  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーションの概要  
+  
+## URL  
+  
+## テスト用アカウント  
+・ Basic認証ID：  
+・ Basic認証パスワード：  
+・ メールアドレス：  
+・ パスワード：  
 
-Things you may want to cover:
+# 利用方法  
+## 予約作成  
+1.  トップページ(カレンダー一覧ページ)にてユーザー新規登録を行う  
+2.  予約したい日付から新規予約を行う  
+3.  予約完了通知が来るまで待つ  
+  
 
-* Ruby version
+# アプリケーション作成背景  
+日常的に予約する必要性に迫られることは多いが、キャンセル待ち(繰り上げ)機能付き予約システムを用いたものはあまり見かけない。そこで、利用者側も管理者側も、予約キャンセルによるお互いの機会損失を減らすことができないかと思い、アプリケーション開発をすることにした。
 
-* System dependencies
+# 洗い出した要件  
+[要件定義シート](https://docs.google.com/spreadsheets/d/1JxuHxtgxb6sjIqMncXIaa-YYWlBpI6oSt5ym809dFUo/edit)  
+  
+# 実装した機能についての画像やGIFおよびその説明  
 
-* Configuration
+# 実装予定機能  
+現在、予約機能実装中  
+今後は、予約繰上げ機能を実装する  
+  
+# データーベース設計  
 
-* Database creation
+# 画面遷移図  
 
-* Database initialization
+# 開発環境  
 
-* How to run the test suite
+# ローカルでの作動方法  
 
-* Services (job queues, cache servers, search engines, etc.)
+# 工夫したポイント  
+  
 
-* Deployment instructions
 
-* ...
+
