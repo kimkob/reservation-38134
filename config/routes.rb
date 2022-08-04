@@ -6,4 +6,5 @@ Rails.application.routes.draw do
  
   root to: 'calendar#index'
   resources :users, only: :new
+  resources :reservations, only: :new
 end
