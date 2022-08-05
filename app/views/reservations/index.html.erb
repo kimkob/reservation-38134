@@ -1,0 +1,11 @@
+<%= week_calendar(attribute: :start_date, end_attribute: :end_date) do |date| %>
+  <%= date.day %>
+<% end %>
+
+<%= form_with(model: @reservation, local:true) do |form| %>
+  <%= form.label :user_id %>
+  <%= form.label :date %>
+  <%= form.label :time %>
+  <%= form.label :hour %>
+  <%= form.submit %>
+<%end%>
