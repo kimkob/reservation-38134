@@ -34,7 +34,7 @@
 # データーベース設計  
 
 # 画面遷移図  
-[![Image from Gyazo](https://i.gyazo.com/d94a1a28ca545643db265d910ea10068.png)](https://gyazo.com/d94a1a28ca545643db265d910ea10068)
+
 # 開発環境  
 
 # ローカルでの作動方法  
